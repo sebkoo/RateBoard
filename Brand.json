@@ -1,0 +1,10 @@
+{
+  "appName": "RateBoard",
+  "primaryColorHex": "#1F3A5F",
+  "baseCurrency": "USD",
+  "pinnedCurrencies": ["EUR", "GBP", "JPY", "KRW"],
+  "features": {
+    "showConverter": true,
+    "showLastUpdated": true
+  }
+}
