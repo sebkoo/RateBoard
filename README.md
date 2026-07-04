@@ -77,13 +77,13 @@ board.convert(100, to: "KRW")   // → Optional(137_240.0)
 ## 🗺 Roadmap (small, reviewable commits)
 
 - [x] **chore:** initialize the RateBoardKit Swift package
-- [ ] **feat:** raw Frankfurter wire model — the honest shape
-- [ ] **feat:** `Rate` and `RateBoard` domain types with safe conversion
-- [ ] **feat:** normalize boundary — junk-rate filtering, UTC-safe dates
-- [ ] **feat:** async `FrankfurterClient` behind a `RatesProviding` protocol
-- [ ] **feat:** actor-based offline `BoardCache` with age reporting
-- [ ] **feat:** `BrandConfig` — JSON white-labeling with per-field defaults
-- [ ] **test:** 9 unit tests across the boundary, cache, and config
+- [x] **feat:** raw Frankfurter wire model — the honest shape
+- [x] **feat:** `Rate` and `RateBoard` domain types with safe conversion
+- [x] **feat:** normalize boundary — junk-rate filtering, UTC-safe dates
+- [x] **feat:** async `FrankfurterClient` behind a `RatesProviding` protocol
+- [x] **feat:** actor-based offline `BoardCache` with age reporting
+- [x] **feat:** `BrandConfig` — JSON white-labeling with per-field defaults
+- [x] **test:** 9 unit tests across the boundary, cache, and config
 - [ ] **feat:** SwiftUI rates screen (view model + loading / offline / error states)
 - [ ] **feat:** converter screen + pinned currencies from `Brand.json`
 - [ ] **test:** view-model tests with a mocked `RatesProviding`
