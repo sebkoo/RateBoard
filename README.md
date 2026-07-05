@@ -10,6 +10,8 @@ Built on the free, key-less [Frankfurter](https://frankfurter.dev) API (European
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 > 🎯 Built to demonstrate production-grade iOS engineering: a clean data boundary, an **actor-based offline cache**, config-driven white-labeling, async networking, and a fully **unit-tested core** — on real public financial data.
+>
+> ⚙️ **Workflow transparency:** built with an AI-assisted workflow (Claude as pair programmer — see the commit trailers); the architecture decisions, code review, and final call on every line are mine.
 
 ---
 
